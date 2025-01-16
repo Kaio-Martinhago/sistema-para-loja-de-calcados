@@ -1,0 +1,295 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>inserir_produtos</class>
+ <widget class="QDialog" name="inserir_produtos">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>487</width>
+    <height>395</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>487</width>
+    <height>395</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>487</width>
+    <height>395</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>Inserir Produtos no Estoque</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color:#b0abab</string>
+  </property>
+  <widget class="QLabel" name="label_cod_inseprod">
+   <property name="geometry">
+    <rect>
+     <x>82</x>
+     <y>82</y>
+     <width>180</width>
+     <height>24</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>11</pointsize>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: #248;</string>
+   </property>
+   <property name="text">
+    <string>Código:</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="line_cod_inserprod">
+   <property name="geometry">
+    <rect>
+     <x>271</x>
+     <y>80</y>
+     <width>125</width>
+     <height>28</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background:#807e7e</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_qtdpares_insprod">
+   <property name="geometry">
+    <rect>
+     <x>82</x>
+     <y>119</y>
+     <width>182</width>
+     <height>24</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>11</pointsize>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: #248;</string>
+   </property>
+   <property name="text">
+    <string>Quantidade de pares:</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="line_qtdpares_inseprod">
+   <property name="geometry">
+    <rect>
+     <x>271</x>
+     <y>119</y>
+     <width>125</width>
+     <height>28</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background:#807e7e</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="btn_insere_estoque">
+   <property name="geometry">
+    <rect>
+     <x>160</x>
+     <y>330</y>
+     <width>161</width>
+     <height>29</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>10</pointsize>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: #248;
+</string>
+   </property>
+   <property name="text">
+    <string>Inserir no Estoque</string>
+   </property>
+  </widget>
+  <widget class="QWidget" name="widget_2" native="true">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>-10</y>
+     <width>491</width>
+     <height>61</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background:#248; 
+color: #ffffff;</string>
+   </property>
+   <widget class="QLabel" name="label_insira_prod_estoque">
+    <property name="geometry">
+     <rect>
+      <x>140</x>
+      <y>20</y>
+      <width>281</width>
+      <height>27</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>12</pointsize>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: #white;</string>
+    </property>
+    <property name="text">
+     <string>Insira os dados do produto:</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QLabel" name="label_numeracoes">
+   <property name="geometry">
+    <rect>
+     <x>31</x>
+     <y>191</y>
+     <width>146</width>
+     <height>24</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>11</pointsize>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: #248;</string>
+   </property>
+   <property name="text">
+    <string>       Numeração:</string>
+   </property>
+  </widget>
+  <widget class="QWidget" name="">
+   <property name="geometry">
+    <rect>
+     <x>80</x>
+     <y>230</y>
+     <width>331</width>
+     <height>71</height>
+    </rect>
+   </property>
+   <layout class="QVBoxLayout" name="verticalLayout">
+    <item>
+     <layout class="QHBoxLayout" name="horizontalLayout">
+      <item>
+       <widget class="QRadioButton" name="radio_33_34">
+        <property name="font">
+         <font>
+          <bold>true</bold>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">color:#000;</string>
+        </property>
+        <property name="text">
+         <string>33-34</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QRadioButton" name="radio_35_36">
+        <property name="font">
+         <font>
+          <bold>true</bold>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">color:#000;</string>
+        </property>
+        <property name="text">
+         <string>35-36</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QRadioButton" name="radio_37_38">
+        <property name="font">
+         <font>
+          <bold>true</bold>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">color:#000;</string>
+        </property>
+        <property name="text">
+         <string>37-38</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </item>
+    <item>
+     <layout class="QHBoxLayout" name="horizontalLayout_2">
+      <item>
+       <widget class="QRadioButton" name="radio_39_40">
+        <property name="font">
+         <font>
+          <bold>true</bold>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">color:#000;</string>
+        </property>
+        <property name="text">
+         <string>39-40</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QRadioButton" name="radio_41_42">
+        <property name="font">
+         <font>
+          <bold>true</bold>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">color:#000;</string>
+        </property>
+        <property name="text">
+         <string>41-42</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QRadioButton" name="radio_43_44">
+        <property name="font">
+         <font>
+          <bold>true</bold>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">color:#000;</string>
+        </property>
+        <property name="text">
+         <string>43-44</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
